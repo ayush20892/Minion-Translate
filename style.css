@@ -18,6 +18,8 @@ body {
 nav {
   background-color: var(--primary-colour);
   text-align: center;
+  max-width: var(--width-break);
+  margin: auto;
 }
 
 .header-title {
@@ -40,7 +42,6 @@ nav {
   padding: 2.5rem;
   max-width: var(--width-break);
   text-align: center;
-  background-color: #fdffbc;
 }
 
 .city-name {
@@ -93,12 +94,14 @@ a {
 }
 
 footer {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
   padding: 3rem;
   background-color: var(--primary-colour);
   text-align: center;
+  max-width: var(--width-break);
+  margin: auto;
 }
 
 .footer-pills {
