@@ -4,10 +4,10 @@ var translateOutput = document.querySelector("#output");
 
 var url = "https://api.funtranslations.com/translate/minion.json"
 
-// function constructURL(inputText) {
-//     var encodedURI = encodeURI(inputText);
-//     return `${url}?text=${encodedURI}`;
-// }
+function constructURL(inputText) {
+    var encodedURI = encodeURI(inputText);
+    return `${url}?text=${encodedURI}`;
+}
 
 function buttonClickHandler(event) {
     console.log("button clicked");
